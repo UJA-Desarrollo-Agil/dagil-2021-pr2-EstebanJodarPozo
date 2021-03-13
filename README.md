@@ -20,7 +20,7 @@ el personaje es un servidor.
 ![Trello2](/games/media/img/Trello_medias.png)
 
 ## Integracion de Trello en Telegram:
-![Trello3](/games/media/img/Integracion_Trello.png)
+<img src="/games/media/img/Integracion_Trello.png" height="400" width="300">
 
 ## Integracion de GitHub en Telegram:
-![Github1](/games/media/img/Integracion_telegram.png)
+<img src="/games/media/img/Integracion_telegram.png" height="400" width="300">
