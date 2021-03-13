@@ -14,3 +14,4 @@ salir un caluroso dia de verano a comprar unos cartuchos de tinta. Por supuesto
 el personaje es un servidor.
 
 ### Capturas de Trello:
+![Trello1](/games/media/img/Trello principio.png)
