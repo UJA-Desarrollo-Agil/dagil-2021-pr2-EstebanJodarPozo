@@ -13,4 +13,14 @@ Esta pequeña historia se llama **Odisea**. Trata de las peripecias sufridas al
 salir un caluroso dia de verano a comprar unos cartuchos de tinta. Por supuesto
 el personaje es un servidor.
 
-### Capturas de Trello:
+## Capturas de Trello:
+![Trello1](/games/media/img/Trello_principio.png)
+
+## A medio trabajo:
+![Trello2](/games/media/img/Trello_medias.png)
+
+## Integracion de Trello en Telegram:
+![Trello3](/games/media/img/Integracion_Trello.png)
+
+## Integracion de GitHub en Telegram:
+![Github1](/games/media/img/Integracion_telegram.png)
