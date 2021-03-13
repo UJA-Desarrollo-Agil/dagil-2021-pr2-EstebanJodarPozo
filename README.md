@@ -9,9 +9,8 @@ unos breves datos acerca de mi:
 - **Tello_Prac_2**  :   https://trello.com/b/CRyuO8iB/practica2
 - **Telegram**  :  [@estebanJodar](https://t.me/estebanJodar)
 
-Esta pequeña historia se llama **Odisea**. Trata de las peripecias sufridas al
+Esta pequeÃ±a historia se llama **Odisea**. Trata de las peripecias sufridas al
 salir un caluroso dia de verano a comprar unos cartuchos de tinta. Por supuesto
 el personaje es un servidor.
 
-### Capturas de pantalla Trello
-<img src="games/media/img/Trello principio.jpg" alt="texto alternativo" height="42" width="42">
+### Capturas de Trello:
