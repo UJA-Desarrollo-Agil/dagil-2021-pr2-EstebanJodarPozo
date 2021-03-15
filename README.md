@@ -13,6 +13,21 @@ Esta pequeña historia se llama **Odisea**. Trata de las peripecias sufridas al
 salir un caluroso dia de verano a comprar unos cartuchos de tinta. Por supuesto
 el personaje es un servidor.
 
+El juego **Odisea** consta de las siguientes situaciones:
+- inicio
+- llaves
+- calor
+- tiendabus
+- comprayentrada
+- trafico
+- tiendacoche
+- comprayteabren
+- multa
+- noabrennocompras
+- robo
+- comprasnollavespiso
+- nocomprayteabren
+
 ## Capturas de Trello:
 ![Trello1](/games/media/img/Trello_principio.png)
 
