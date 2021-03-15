@@ -24,3 +24,6 @@ el personaje es un servidor.
 
 ## Integracion de GitHub en Telegram:
 <img src="/games/media/img/Integracion_telegram.png" height="400" width="300">
+
+## Captura final de Trello:
+![Trello3](/games/media/img/Trello_fin.png)
