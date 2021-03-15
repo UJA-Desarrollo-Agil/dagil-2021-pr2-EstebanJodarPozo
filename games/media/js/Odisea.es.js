@@ -99,7 +99,7 @@ undum.game.situations = {
     comprayteabren: new undum.SimpleSituation(
             "<h1>Por fin he llegado al piso!!</h1>\
         <p>He regresado sin problemas...y parece que si estan, mmmm, mejor!!\
-        Hoy se han escaqueado dela reunion de scrum.\n\ </p>\
+        Hoy se han escaqueado de la reunion de scrum.\n\ </p>\
         <center><img src='media/img/disfrutarcompis.png' class='float_center'></center></p>\
         <p>Ahora a ponerme fresquito, mas de lo que estoy, jejeje, y a disfrutar de su compañia, ya luego imprimire el informe.</p>\
         <p><h1><b>FIN</b></h1></p>\ "
