@@ -6,7 +6,7 @@ undum.game.id = "be3d95b6-cbc7-48c6-8e6c-49837ba9113e";
 /* VERSION DEL JUEGO. Aqui se controlan las partidas guardadas. Evidentemente,
  * una partida guardada, al cambiar la version del juego, si luego la cargas
  * no va a funcionar. */
-undum.game.version = "1.0";
+undum.game.version = "2.0";
 
 /* Variable usada para Web responsive. */
 undum.game.mobileHide = 2000;
@@ -87,8 +87,8 @@ undum.game.situations = {
         <p><h1><b>FIN</b></h1></p>",
             {
                 enter: function (character, system) {
-                    system.setQuality('calorin', character.qualities.calorin - 10);
-                    system.setQuality('suerte', character.qualities.suerte + 1);
+                    system.setQuality('calorin', character.qualities.calorin - 20);
+                    system.setQuality('suerte', character.qualities.suerte + 2);
                     system.setQuality('llavespiso', character.qualities.llavespiso = 1);
                     system.setQuality('pasta', character.qualities.pasta - 91);
                     system.setQuality('veterano', 1);
@@ -102,8 +102,19 @@ undum.game.situations = {
         Hoy se han escaqueado de la reunion de scrum.\n\ </p>\
         <center><img src='media/img/disfrutarcompis.png' class='float_center'></center></p>\
         <p>Ahora a ponerme fresquito, mas de lo que estoy, jejeje, y a disfrutar de su compañia, ya luego imprimire el informe.</p>\
-        <p><h1><b>FIN</b></h1></p>\ "
-            ),
+        <p><h1><b>FIN</b></h1></p>",
+            {
+                enter: function (character, system) {
+                    system.setQuality('calorin', character.qualities.calorin - 10);
+                    system.setQuality('suerte', character.qualities.suerte + 1);
+                    system.setQuality('llavespiso', character.qualities.llavespiso = 1);
+                    system.setQuality('llavescoche', character.qualities.llavescoche = 0);
+                    system.setQuality('pasta', character.qualities.pasta - 90);
+                    system.setQuality('veterano', 1);
+                    system.setQuality('curtido', 0);
+                }
+            }
+    ),
     trafico: new undum.SimpleSituation(
             "<h1>Pero bueno, y este traficazo??</h1>\
         <center><img src='media/img/atasco.png' class='float_up'></center>\
@@ -150,11 +161,11 @@ undum.game.situations = {
             {
                 enter: function (character, system) {
                     system.setQuality('calorin', character.qualities.calorin + 20);
-                    system.setQuality('suerte', character.qualities.suerte - 3);
+                    system.setQuality('suerte', character.qualities.suerte - 4);
                     system.setQuality('llavescoche', character.qualities.llavescoche = 1);
                     system.setQuality('pasta', character.qualities.pasta - 200);
-                    system.setQuality('novato', 0);
-                    system.setQuality('veterano', 0);
+                    system.setQuality('novato', 1);
+                    system.setQuality('curtido', 0);
                 }
             }
     ),
@@ -165,8 +176,18 @@ undum.game.situations = {
         <b>Scrum Master</b> esta muy contento y se los ha llevado a cenar por ahi y volveran a las tantas...\
         Encima no he comprado los malditos cartuchos!!</p>\
         <center><img src='media/img/dormircalle.png' class='float_up'></center>\
-        <p><h1><b>FIN</b></h1></p>"
-            ),
+        <p><h1><b>FIN</b></h1></p>",
+            {
+                enter: function (character, system) {
+                    system.setQuality('calorin', character.qualities.calorin + 20);
+                    system.setQuality('suerte', character.qualities.suerte = 0);
+                    system.setQuality('llavespiso', character.qualities.llavespiso = 0);
+                    system.setQuality('pasta', character.qualities.pasta = 0);
+                    system.setQuality('novato', 1);
+                    system.setQuality('curtido', 0);
+                }
+            }
+    ),
     nocomprayteabren: new undum.SimpleSituation(
             "<h1>Ding Dong...Ding Dong</h1>\
         <center><img src='media/img/reciben.png' class='float_up'></center>\
@@ -174,8 +195,17 @@ undum.game.situations = {
         a mano porque la impresora esta sin tinta. Al menos estoy en casa aunque vaya tardecita que llevo...\
         Encima no he comprado los malditos cartuchos!!</p>\
         <center><img src='media/img/cabreado.png' class='float_up'></center>\
-        <p><h1><b>FIN</b></h1></p>"
-            ),
+        <p><h1><b>FIN</b></h1></p>",
+            {
+                enter: function (character, system) {
+                    system.setQuality('calorin', character.qualities.calorin - 20);
+                    system.setQuality('suerte', character.qualities.suerte + 1);
+                    system.setQuality('llavespiso', character.qualities.llavespiso = 0);
+                    system.setQuality('novato', 1);
+                    system.setQuality('curtido', 0);
+                }
+            }
+    ),
     robo: new undum.SimpleSituation(
             "<h1>Dame todo lo que llevas!!</h1>\
         <center><img src='media/img/robo.png' class='float_up'></center>\
@@ -190,8 +220,9 @@ undum.game.situations = {
                     system.setQuality('suerte', character.qualities.suerte - 2);
                     system.setQuality('llavespiso', 0);
                     system.setQuality('pasta', character.qualities.pasta - 200);
-                    system.setQuality('curtido', 1);
-                    system.setQuality('novato', 0);
+                    system.setQuality('novato', 1);
+                    system.setQuality('curtido', 0);
+
                 }
             }
     ),
@@ -203,8 +234,18 @@ undum.game.situations = {
         contento y se los ha llevado a cenar por ahi y volveran a las tantas...\
         Vaya tela, con las llaves del coche, con la tinta comprada y me va tocar dormir en la calle.</p>\
         <center><img src='media/img/dormircalle.png' class='float_up'></center>\
-        <p><h1><b>FIN</b></h1></p>"
-            )
+        <p><h1><b>FIN</b></h1></p>",
+            {
+                enter: function (character, system) {
+                    system.setQuality('calorin', character.qualities.calorin + 30);
+                    system.setQuality('suerte', character.qualities.suerte - 4);
+                    system.setQuality('llavescoche', character.qualities.llavescoche = 1);
+                    system.setQuality('pasta', character.qualities.pasta - 91);
+                    system.setQuality('novato', 1);
+                    system.setQuality('curtido', 0);
+                }
+            }
+    )
 };
 
 // ---------------------------------------------------------------------------
